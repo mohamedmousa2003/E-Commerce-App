@@ -27,7 +27,11 @@ class TextShimmer extends StatelessWidget {
       highlightColor: colorTwo,
       child: TitleTextWidget(
         label: label,
-        fontSize: fontSize,
+        textStyle: TextStyle(
+          fontSize: fontSize,
+          fontWeight: FontWeight.bold,
+          color: Colors.white,
+        ),
       ),
     );
   }

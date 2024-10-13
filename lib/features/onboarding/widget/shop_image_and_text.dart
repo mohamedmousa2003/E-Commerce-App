@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:shoppe/core/resources/assets_manager.dart';
+import 'package:shoppe/core/resources/constants.dart';
 
-import '../../../core/themes/const_text.dart';
 import '../../../core/themes/styles.dart';
 
 class ShopImageAndText extends StatelessWidget {
@@ -23,7 +24,7 @@ class ShopImageAndText extends StatelessWidget {
                 stops: const [0.10, 0.3],
               ),
             ),
-            child: SvgPicture.asset("assets/svg/onboarding.svg")),
+            child: SvgPicture.asset(SvgAssets.onboarding)),
         Positioned(
           bottom: 30,
           left: 0,
